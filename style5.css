@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    height: 25vh;
+}
+body {
+    background-color: #ECF4D6;
+    text-align: center;
+}
+header, footer {
+    background-color: #9AD0C2;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 20px;
+}
+main {
+    height: 70vh;
+    margin: 0 20px;
+    display: flex;
+}
+aside {
+    background-color: #2D9596;
+    flex: 1;
+    margin-right: 20px;
+}
+article {
+    background-color: #265073;
+    flex: 3;
+    text-align: center;
+}
+article .text {
+    height: 37vh;
+}
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}

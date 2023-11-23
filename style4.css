@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    background-color: #9AD0C2;
+    height: 20vh;
+    margin-left: 83px;
+}
+#main{
+    display: flex;
+}
+#main article{
+    flex: 1;
+    background-color: #ECF4D6;
+}
+#main nav,
+
+#main aside{
+    height: 50vh;
+} 
+#main nav{
+    background-color: #2D9596;
+    width: 14vw;
+    position: absolute;
+    left: 0px;
+    height: 90vh;
+    top: 0px;
+    
+}
+#main aside{
+    background-color: #265073;
+    width: 14vw;
+    
+}
+article, header, footer{
+    display: flex;
+    justify-content: center;
+    
+}
+nav, aside{
+   text-align: center; 
+}
+p{
+    margin-top: 50px;
+    color: red
+}
